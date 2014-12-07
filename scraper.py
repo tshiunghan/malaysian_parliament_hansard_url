@@ -4,7 +4,7 @@ from BeautifulSoup import BeautifulSoup
 import re
 
 # Blank Python
-HANSARD_ARCHIVE = 'http://www.parlimen.gov.my/index.php?modload=sidang&uweb=dr&doc=op&arkib=yes'
+HANSARD_ARCHIVE = 'http://www.parlimen.gov.my/hansard-dewan-rakyat.html?&uweb=dr&lang=bm&arkib=yes'
 
 def extract_url(href):
     remove_js = href.replace('javascript:loadResult','').replace(';','')
