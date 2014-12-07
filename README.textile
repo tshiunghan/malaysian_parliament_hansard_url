@@ -1,0 +1,3 @@
+This is a scraper to scrape links to the record of parliament meeting. 
+
+Meant to be use for other project, but you ca use it
